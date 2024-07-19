@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/vaapas-assignment/static/css/main.f32cc96d.css",
+    "main.js": "/vaapas-assignment/static/js/main.aa514f3a.js",
+    "static/js/453.d7edae81.chunk.js": "/vaapas-assignment/static/js/453.d7edae81.chunk.js",
+    "static/media/bgimage.png": "/vaapas-assignment/static/media/bgimage.befbf97239653dc7046a.png",
+    "index.html": "/vaapas-assignment/index.html",
+    "main.f32cc96d.css.map": "/vaapas-assignment/static/css/main.f32cc96d.css.map",
+    "main.aa514f3a.js.map": "/vaapas-assignment/static/js/main.aa514f3a.js.map",
+    "453.d7edae81.chunk.js.map": "/vaapas-assignment/static/js/453.d7edae81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f32cc96d.css",
+    "static/js/main.aa514f3a.js"
+  ]
+}
