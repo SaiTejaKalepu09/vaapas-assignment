@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&family=Playwrite+PE:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap');
+
+.searchInput{
+    height: 40px;
+    width: 300px;
+    padding-left: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: rgb(250, 220, 220);
+    border-style: solid;
+    border-color: rgb(250, 220, 220);
+}
+.search-button{
+  height: 45px;
+  width: 150px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: red;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-style: solid;
+  border-width: 0px;
+  border-color: red;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+@media (max-width : 510px) {
+  .searchInput{
+    width: 200px;
+  }
+  .search-button{
+    width:120px;
+  }
+}
+@media (max-width :404px) {
+  .searchInput{
+    height: 35px;
+    width: 150px;
+  }
+  .search-button{
+    height: 40px;
+    width:90px;
+  }
+}
+::placeholder{
+    color: rgb(54, 53, 53);
+}
+
+.title{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color : #ffffff
+}
+.date{
+    color: #ffffff;
+}
+.author{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 20px;
+  color: #f4b6b6;
+}
+.dog-image{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.movie-card {
+    height: 300px;
+    width: 400px;
+    border-color: #ffffff;
+    border-width: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 10px; /* Add some padding */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .title {
+    font-size: 1.5em;
+    text-align: center; /* Center align text */
+    white-space: nowrap; /* Prevent text from wrapping */
+    overflow: hidden; /* Hide overflowed text */
+    text-overflow: ellipsis; /* Show ellipsis when text overflows */
+    width: 100%; /* Ensure the title takes the full width of the card */
+  }
+  
+  .author, .date {
+    text-align: center; /* Center align text */
+  }
+  
+  .movie-card h2,
+  .movie-card p {
+    transition: opacity 0.3s ease; /* Smooth transition */
+  }
+  
+  .card-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .movie-card:hover .card-hover {
+    opacity: 1; /* Show on hover */
+  }
+  
+  .movie-card:not(:hover) h2,
+  .movie-card:not(:hover) p {
+    opacity: 1; /* Show text when not hovered */
+  }
+  
+  .movie-card:not(:hover) .card-hover {
+    opacity: 0; /* Hide dog image when not hovered */
+  }
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+  }  
