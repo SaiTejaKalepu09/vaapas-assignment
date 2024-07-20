@@ -86,26 +86,26 @@
     overflow: hidden;
     cursor: pointer;
     margin-top: 20px;
-    padding: 10px; /* Add some padding */
-    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 10px; 
+    box-sizing: border-box; 
   }
   
   .title {
     font-size: 1.5em;
-    text-align: center; /* Center align text */
-    white-space: nowrap; /* Prevent text from wrapping */
-    overflow: hidden; /* Hide overflowed text */
-    text-overflow: ellipsis; /* Show ellipsis when text overflows */
-    width: 100%; /* Ensure the title takes the full width of the card */
+    text-align: center; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    width: 100%; 
   }
   
   .author, .date {
-    text-align: center; /* Center align text */
+    text-align: center; 
   }
   
   .movie-card h2,
   .movie-card p {
-    transition: opacity 0.3s ease; /* Smooth transition */
+    transition: opacity 0.3s ease; 
   }
   
   .card-hover {
@@ -119,16 +119,16 @@
   }
   
   .movie-card:hover .card-hover {
-    opacity: 1; /* Show on hover */
+    opacity: 1; 
   }
   
   .movie-card:not(:hover) h2,
   .movie-card:not(:hover) p {
-    opacity: 1; /* Show text when not hovered */
+    opacity: 1; 
   }
   
   .movie-card:not(:hover) .card-hover {
-    opacity: 0; /* Hide dog image when not hovered */
+    opacity: 0; 
   }
   .row{
     display: flex;
